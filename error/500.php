@@ -1,41 +1,41 @@
 <!DOCTYPE HTML>
 <html>
 
-    <head>
-    
-        <title>
-            500
-        </title>
-        
-        <?php include("$_SERVER[DOCUMENT_ROOT]/common/head.html"); ?>
+  <head>
 
-        <link rel="stylesheet" type="text/css" href="/error/error.css">
-        <script type="text/javascript" src="/error/error.js"></script>
-        
-    </head>
-    
-    <body>
-    
-        <?php include("$_SERVER[DOCUMENT_ROOT]/common/nav.html"); ?>
-        
-        <div class="content">
+    <title>
+      500
+    </title>
 
-            <div class="content-center">
-            
-                <div id="errorbox" class="stdbg">
-                    
-                    <h1 id="message">
-                        500: Internal Server Error
-                    </h1>
+    <?php include("$_SERVER[DOCUMENT_ROOT]/common/head.html"); ?>
 
-                </div>
-                
-            </div>
-        
+    <link rel="stylesheet" type="text/css" href="/error/error.css">
+    <script type="text/javascript" src="/error/error.js"></script>
+
+  </head>
+
+  <body>
+
+    <?php include("$_SERVER[DOCUMENT_ROOT]/common/nav.html"); ?>
+
+    <div class="content">
+
+      <div class="content-center">
+
+        <div id="errorbox" class="stdbg">
+
+          <h1 id="message">
+            500: Internal Server Error
+          </h1>
+
         </div>
-        
-        <?php include("$_SERVER[DOCUMENT_ROOT]/common/footer.html"); ?>
-        
-    </body>
-    
+
+      </div>
+
+    </div>
+
+    <?php include("$_SERVER[DOCUMENT_ROOT]/common/footer.html"); ?>
+
+  </body>
+
 </html>
