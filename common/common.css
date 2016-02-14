@@ -1,77 +1,77 @@
 
 html
 {
-    min-height: 100%;
+  min-height: 100%;
 }
 
 body
 {
-    /* background: linear-gradient(#ddd 200px, #fff 400px) no-repeat;
-    /* background: linear-gradient(to right, #dde, #fff, #dde) no-repeat;
-    /* background-color: #eee;
-    background-image: url("/images/Joyo2.png");
-    background-attachment: fixed;
-    background-size: 1272px 756px;
-    margin: 0px; /* for reasons unknown to me, the body apparently automatically gets a 7px margin, so i have to undo that with this
-    min-height: 100%; */
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
+  /* background: linear-gradient(#ddd 200px, #fff 400px) no-repeat;
+  /* background: linear-gradient(to right, #dde, #fff, #dde) no-repeat;
+  /* background-color: #eee;
+  background-image: url("/images/Joyo2.png");
+  background-attachment: fixed;
+  background-size: 1272px 756px;
+  margin: 0px; /* for reasons unknown to me, the body apparently automatically gets a 7px margin, so i have to undo that with this
+  min-height: 100%; */
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
 }
 
 a:link
 {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 
 a:visited
 {
-    color: #000;
-    text-decoration: none;
+  color: #000;
+  text-decoration: none;
 }
 
 a:hover
 {
-    color: #888;
-    text-decoration: none;
+  color: #888;
+  text-decoration: none;
 }
 
 a:active
 {
-    color: #888;
-    text-decoration: none;
+  color: #888;
+  text-decoration: none;
 }
 
 .content
 {
-    position: absolute;
-    top: 50px; /* nav is 50px tall */
-    bottom: 20px; /* footer is 20px tall */
-    width: 100%;
+  position: absolute;
+  top: 50px; /* nav is 50px tall */
+  bottom: 20px; /* footer is 20px tall */
+  width: 100%;
 }
 
 .content-center
 {
-    left: 50%;
-    margin-left: -300px;
-    padding-bottom: 40px; /* 20px for footer + 20px to match top */
-    position: relative;
-    top: 20px;
-    width: 600px;
+  left: 50%;
+  margin-left: -300px;
+  padding-bottom: 40px; /* 20px for footer + 20px to match top */
+  position: relative;
+  top: 20px;
+  width: 600px;
 }
 
 .content-center a
 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .stdbg /* standard background/container design for content */
 {
-    /* background: linear-gradient(#fff, #eee 200px) no-repeat; */
-    background-color: #fff;
-    border: 1px solid #fff;
-    box-shadow: 0px 0px 8px 0px #000;
-    padding: 10px;
-    text-align: center;
+  /* background: linear-gradient(#fff, #eee 200px) no-repeat; */
+  background-color: #fff;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 8px 0px #000;
+  padding: 10px;
+  text-align: center;
 }

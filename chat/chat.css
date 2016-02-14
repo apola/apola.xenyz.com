@@ -1,69 +1,69 @@
 
 #btnLogin
 {
-    margin-top: 5px;
-    width: 100px;
+  margin-top: 5px;
+  width: 100px;
 }
 
 #btnLogout
 {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 #btnRegister
 {
-    width: 100px;
+  width: 100px;
 }
 
 /*
 #txtNewPassword
 {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 #btnSave
 {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 */
 
 #chatbox
 {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 #messages
 {
-    border: 1px solid #ddd;
-    max-height: 300px;
-    overflow: auto;
-    text-align: left;
+  border: 1px solid #ddd;
+  max-height: 300px;
+  overflow: auto;
+  text-align: left;
 }
 
 #txtMessage
 {
-    margin-right: 5px;
-    margin-top: 10px;
-    width: 500px;
+  margin-right: 5px;
+  margin-top: 10px;
+  width: 500px;
 }
 
 #btnSend
 {
-    width: 10%;
+  width: 10%;
 }
 
 .timestamp
 {
-    color: red;
+  color: red;
 }
 
 .username
 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .error
 {
-    color: red;
-    display: none;
+  color: red;
+  display: none;
 }
