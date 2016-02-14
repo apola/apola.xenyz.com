@@ -1,0 +1,47 @@
+
+#footer
+{
+    /* background: linear-gradient(#ddd, #eee, #ddd) no-repeat; */
+    background-color: #fff;
+    border-top: 1px solid #fff;
+    box-shadow: 0px 0px 8px 0px #000;
+    bottom: 0px;
+    height: 20px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+}
+
+#footer-left
+{
+    float: right;
+    font-size: 0.6em;
+    left: 10px;
+    margin-top: -6px;
+    position: absolute;
+}
+
+#footer-center
+{
+    float: right;
+    font-size: 0.6em;
+    left: -50%;
+    margin-top: -6px;
+    position: relative;
+}
+
+#footer-center-content
+{
+    left: 50%;
+    position: relative;
+}
+
+#footer-right
+{
+    float: right;
+    font-size: 0.6em;
+    right: 10px;
+    margin-top: -6px;
+    position: absolute;
+}

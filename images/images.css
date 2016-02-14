@@ -1,0 +1,57 @@
+
+#uploadbox
+{
+    height: auto;
+    overflow: hidden;
+}
+
+#uploadinput
+{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#txtPassword
+{
+    margin-top: 5px;
+}
+
+#listbox
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    margin-top: 15px;
+}
+
+#hint
+{
+    color: red;
+}
+
+#uploadlist
+{
+    background-color: #fff;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Put a border between the first tr and the rest to separate the th's */
+#uploadlist tr:nth-of-type(1)
+{
+    border-bottom: 1px solid black;
+}
+
+/* Skip the first tr and then make every second tr a darker shade of gray */
+#uploadlist tr:nth-of-type(2n+3)
+{
+    background-color: #ddd;
+}
+
+/* There are two td's in each tr in this table, so make each 1/2 the width of the table */
+#uploadlist td
+{
+    margin: 0px;
+    width: 50%;
+}

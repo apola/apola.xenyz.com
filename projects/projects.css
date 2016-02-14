@@ -1,0 +1,28 @@
+#personal, #school
+{
+    margin-top: 15px;
+}
+
+.projectlist
+{
+    border-collapse: collapse;
+}
+
+/* Put a border between the first tr and the rest to separate the th's */
+.projectlist tr:nth-of-type(1)
+{
+	border-bottom: 1px solid black;
+}
+
+/* Skip the first tr and then make every second tr a darker shade of gray */
+.projectlist tr:nth-of-type(2n+3)
+{
+    background-color: #ddd;
+}
+
+/* Make the first two columns each 1/4 the width of the table so that the
+	notes are only 1/2 the width of the table */
+.projectlist th:nth-of-type(1), .projectlist th:nth-of-type(2)
+{
+	width: 25%;
+}

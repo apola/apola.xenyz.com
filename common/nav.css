@@ -1,0 +1,186 @@
+#nav
+{
+    /* background: linear-gradient(#ddd, #eee, #ddd) no-repeat; */
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0px 0px 8px 0px #000;
+    height: 50px;
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 500;
+}
+
+#nav-left
+{
+    float: left;
+    left: 10px;
+    position: absolute;
+    width: 300px;
+}
+
+#nav-center
+{
+    float: left;
+    left: 50%;
+    position: relative;
+}
+
+#nav-center-content
+{
+    left: -50%;
+    position: relative;
+}
+
+#nav-right
+{
+    float: right;
+    right: 10px;
+    position: absolute;
+}
+
+#nav a
+{
+    display: block;
+    transition: color 0.6s;
+}
+
+#nav ul
+{
+    list-style: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+#nav ul li
+{
+    border-bottom: 1px solid #444;
+    float: left;
+    font-size: 1.4em;
+    height: 1.2em;
+    left: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    text-align: center;
+    top: 0px;
+    transition: background 0.4s;
+    width: 100px;
+}
+
+#nav ul li:hover
+{
+    background: #444;
+}
+
+/* this is to ensure that even if you hover over the border of the <li>, the color of the <a> still changes to white */
+#nav ul li:hover a
+{
+    color: #fff;
+}
+
+#nav ul li ul
+{
+    right: 0px;
+    /* make the second ul display just under the whole nav area */
+    /* we use padding for this instead of margin or just top so that hovering over the area between the first and second ul's doesn't cause the :hover css to lose effect */
+    /* this has the unfortunate side effect of causing the :hover css to activate when hovering over that area (i.e. without first hovering over the first ul), so if you know how to fix it, email me please */
+    padding-top: 14px;
+    position: absolute;
+    top: 1.2em;
+}
+
+#nav ul li ul li
+{
+    border-bottom: none;
+    height: 0px;
+    font-size: 1em;
+    min-width: 100px;
+    padding: 0px;
+    transition: background 0.4s, height 0.4s;
+    width: 220px;
+}
+
+#nav ul li:hover ul li
+{
+    background: #444;
+    height: 1.2em;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+#nav ul li ul li a
+{
+    opacity: 0;
+    transition: opacity 0.8s;
+    transition-delay: opacity 0.8s;
+    visibility: hidden;
+}
+
+#nav ul li:hover ul li a
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+#nav ul li ul li:hover
+{
+    background: #000;
+}
+
+#jap
+{
+    margin-top: -2px;
+}
+
+@font-face
+{
+    font-family: "Tengwar Telcontar";
+    src: url("fonts/tengtelc.ttf");
+}
+
+#tengwar
+{
+    font-family: "Tengwar Telcontar";
+    margin-top: -8px;
+}
+
+#logo
+{
+    left: 10px;
+    width: 100px; /* you can click it halfway across the nav bar without this */
+}
+
+/* convert nav to a drop-down menu on small screens */
+#nav select
+{
+    display: none; /* hide until necessary */
+
+    border-bottom: 1px solid #444;
+    border: none;
+    float: left;
+    font-size: 1.4em;
+    height: 1.4em;
+    left: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100px;
+}
+
+@media (max-width: 800px)
+{
+    #nav-center ul
+    {
+        display: none;
+    }
+
+    #nav select
+    {
+        display: inline-block;
+    }
+}

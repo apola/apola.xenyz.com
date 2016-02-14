@@ -1,0 +1,83 @@
+body
+{
+    background-color: #000;
+    overflow: hidden;
+    padding: 0;
+}
+
+canvas
+{
+    background-color: #000;
+    height: 100%;
+    left: 0px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+#content
+{
+    /* most of this is just to undo what common.css does to #content */
+    left: 0px;
+    margin: 0px;
+    top: 0px;
+    width: auto;
+}
+
+#controls
+{
+    float: left;
+    left: 20px;
+    max-height: calc(100vh - 128px); /* 50px for nav + 20px for footer + 20px for top "padding" + 20px for bottom "padding" + 18px cause i said so = 128px */
+    overflow-y: auto;
+    padding: 0px; /* stdbg has 10px padding, which we don't want on these boxes */
+    position: relative;
+    top: 20px;
+    width: 300px;
+}
+
+#settings
+{
+    float: right;
+    max-height: calc(100vh - 128px); /* see #controls above */
+    overflow-y: auto;
+    padding: 0px; /* see #controls above */
+    position: relative;
+    right: 20px;
+    top: 20px;
+    width: 300px;
+}
+
+.starstable
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.starstable tr
+{
+    border-bottom: 1px solid black;
+}
+
+.starstable th
+{
+    background-color: #bbb;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.starstable tr:last-child
+{
+    border: none;
+}
+
+#controlstable td:first-child
+{
+    width: 30%;
+}
+
+#settingstable td:last-child
+{
+    width: 40%;
+}

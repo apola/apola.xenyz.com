@@ -1,0 +1,44 @@
+/*
+@keyframes flash-bg {
+    0%   {background-color: orange;}
+    15%  {background-color: yellow;}
+    30%  {background-color: green;}
+    50%  {background-color: blue;}
+    70%  {background-color: purple;}
+    85%  {background-color: red;}
+    100% {background-color: orange; transform: rotate(-360deg);}
+}
+
+@keyframes flash-fg {
+    0%   {color: yellow;}
+    15%  {color: green;}
+    30%  {color: blue;}
+    50%  {color: purple;}
+    70%  {color: red;}
+    85%  {color: orange;}
+    100% {color: yellow; transform: rotate(720deg);}
+}
+
+#errorbox
+{
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: flash-bg;
+    animation-timing-function: linear;
+}
+
+#message
+{
+    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: flash-fg;
+    animation-timing-function: linear;
+}
+*/
+
+#errorbox
+{
+	margin-top: 250px;
+}

@@ -1,0 +1,56 @@
+
+#text
+{
+    font-size: 1.4em;
+    margin-top: 10px;
+    max-width: 570px;
+    min-width: 570px;
+    position: relative;
+}
+
+#speed, #atatime
+{
+    background: transparent;
+    border: none;
+    font: inherit;
+    text-align: center;
+    width: 60px;
+}
+
+#units
+{
+    background: transparent;
+    border: none;
+    font: inherit;
+    text-align: center;
+}
+/*
+#start, #stop
+{
+    border: 1px solid #444;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+
+#start:hover, #stop:hover
+{
+    background: #ddd;
+}
+
+#start:active, #stop:active
+{
+    background: #444;
+    color: white;
+}
+*/
+#after
+{
+    display: none;
+}
+
+#output
+{
+    font-size: 2em;
+    min-height: 2em;
+}
